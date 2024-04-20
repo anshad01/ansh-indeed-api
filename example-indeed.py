@@ -1,7 +1,7 @@
 import indeed
 
-# Replace with your actual API key
-client = indeed.IndeedClient(api_key="YOUR_API_KEY")
+# Replace with your actual client_id and client_secret
+client = indeed.IndeedClient(client_id="YOUR_CLIENT_ID", client_secret="YOUR_CLIENT_SECRET")
 
 params = {
     "q": "software engineer",
